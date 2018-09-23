@@ -48,15 +48,14 @@ Run the example app under _examples/mix_ directory or create your own:
     ```shell
     npm start
     ```
-The example application should appear under [localhost:8080/examples/mix/](localhost:8080/examples/mix/).
+The example application should appear under http://localhost:8080/examples/mix.
 
 #### Make your own app
-
-1. Create index.html.
+1. Create `index.html`.
 2. Add some sections.
 3. Put at the end of the _body_ the **slider** scripts from the _/dist_ directory.
 
-Your html file should look like this:
+An exemplary HTML file can look like this:
 ```html
 <!DOCTYPE html>
 <head>
@@ -98,6 +97,8 @@ Your html file should look like this:
 </body>
 </html>
 ```
+
+> The above steps will change after publishing an npm package.
 
 ## Roadmap
 - [ ] provide scrolling from different sides (top -> bottom and left -> right)
