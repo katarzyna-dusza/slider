@@ -1,0 +1,93 @@
+section > .content > .text {
+  height: 100vh;
+  width: 60%;
+  margin-left: 20%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.text > h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.text > h5 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.text > p {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 667px) {
+  section > .content > .text {
+    width: 90% !important;
+    margin-left: 5% !important;
+    padding: 0 !important;
+    font-size: 1em !important;
+    font-weight: normal !important;
+  }
+
+  .text > h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .text > h5 {
+    font-weight: 400 !important;
+  }
+}
+
+@media screen and (max-width: 320px), screen and (max-width: 667px) and (orientation: landscape) {
+  section > .content > .text {
+    font-size: 0.9em !important;
+  }
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+  section > .content > .text {
+    font-size: 1em !important;
+  }
+}
+  }
+
+section.one {
+  background-color: #5e4fa2;
+}
+
+section.two {
+  background-color: #3288bd;
+}
+
+section.three {
+  background-color: #65BBF0;
+}
+
+section.four {
+  background-color: #66c2a5;
+}
+
+section.fife {
+  background-color: #abdda4;
+}
+
+section.six {
+  background-color: #fdd462;
+}
+
+section.seven {
+  background-color: #fdae61;
+}
+
+section.eight {
+  background-color: #f46d43;
+}
+
+section.nine {
+  background-color: #d53e4f;
+}
