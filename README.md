@@ -1,10 +1,10 @@
-# <img src="https://github.com/katarzyna-dusza/dotfiles/blob/master/repo-images/favicon.ico"> Slider
+# <img src="https://github.com/katarzyna-dusza/slider/blob/master/repo-images/favicon.ico"> Slider
 
 A small library for implementing simple presentations. It's very elastic (you can add your styles) and easy to use. Check the [demo]().
 
 This is a draft. The idea came out, when I was implementing my [CV](https://katarzyna-dusza.github.io/) and I couldn't find any library, which met my needs.
 
-<img src="https://github.com/katarzyna-dusza/dotfiles/blob/master/repo-images/recording.gif">
+<img src="https://github.com/katarzyna-dusza/slider/blob/master/repo-images/recording.gif">
 
 ## Technologies
 - **ES6**
